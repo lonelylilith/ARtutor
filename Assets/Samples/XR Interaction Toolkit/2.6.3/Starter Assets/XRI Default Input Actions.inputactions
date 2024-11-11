@@ -2730,6 +2730,34 @@
                     "isPartOfComposite": true
                 }
             ]
+        },
+        {
+            "name": "Extension",
+            "id": "1e646c95-590a-4aa8-91e1-7058906d44ae",
+            "actions": [
+                {
+                    "name": "Switching debug mode",
+                    "type": "Button",
+                    "id": "18ea6cf4-c6bc-40f4-a6ad-6148be64adf5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "3c65707b-dd95-447d-990e-53ffb1481c18",
+                    "path": "<XRController>{LeftHand}/secondaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Switching debug mode",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": [
